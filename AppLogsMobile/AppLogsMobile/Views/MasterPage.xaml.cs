@@ -8,11 +8,17 @@ using Xamarin.Forms;
 
 namespace AppLogsMobile.Views
 {
-    public partial class MasterPage : ContentPage
+    public partial class MasterPage : MasterDetailPage
     {
         public MasterPage()
         {
             InitializeComponent();
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            App.Navigatior = Navigator;
         }
     }
 }

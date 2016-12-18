@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppLogsMobile.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,9 @@ namespace AppLogsMobile
         public App()
         {
             InitializeComponent();
+            MainPage = new MasterPage();
         }
+
+        public static NavigationPage Navigatior { get; internal set; }
     }
 }

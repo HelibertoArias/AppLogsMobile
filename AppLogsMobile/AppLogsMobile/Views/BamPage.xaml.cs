@@ -5,14 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace AppLogsMobile.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MenuPage : ContentPage
+    public partial class BamPage : ContentPage
     {
-        public MenuPage()
+        public BamPage()
         {
             InitializeComponent();
         }

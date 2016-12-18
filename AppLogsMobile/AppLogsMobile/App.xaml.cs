@@ -6,9 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace AppLogsMobile
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class App : Application
     {
         public App()

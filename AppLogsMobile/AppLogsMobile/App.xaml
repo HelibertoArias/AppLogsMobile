@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:infra="clr-namespace:AppLogsMobile.Infrastructure; assembly=AppLogsMobile"
              x:Class="AppLogsMobile.App">
 
   <Application.Resources>
@@ -13,6 +14,10 @@
       <Color x:Key="BackgroundColor">#FFFFE8</Color>
       <Color x:Key="AccentColor">#9CC9C9</Color>
       <!--Colores :End-->
+      
+      <!--Crea la instancia del Menu : Start-->
+      <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
+      <!--Crea la instancia del Menu : End-->
     </ResourceDictionary>
   </Application.Resources>
 </Application>

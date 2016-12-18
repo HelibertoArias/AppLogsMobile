@@ -10,17 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace AppLogsMobile.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MasterPage : MasterDetailPage
+    public partial class OdsPage : ContentPage
     {
-        public MasterPage()
+        public OdsPage()
         {
             InitializeComponent();
-        }
-
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-            App.Navigatior = Navigator;
         }
     }
 }

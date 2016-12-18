@@ -2,5 +2,17 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppLogsMobile.App">
- 
+
+  <Application.Resources>
+    <ResourceDictionary>
+      <!--Colores :Start-->
+      <Color x:Key="MainColor">#FFFFE8</Color>
+      <Color x:Key="FontColor">#2D2D38</Color>
+      <Color x:Key="MenuColor">#E86E48</Color>
+      <Color x:Key="MenuFontColor">#9CC9C9</Color>
+      <Color x:Key="BackgroundColor">#8A7D6D</Color>
+      <Color x:Key="AccentColor">#9CC9C9</Color>
+      <!--Colores :End-->
+    </ResourceDictionary>
+  </Application.Resources>
 </Application>

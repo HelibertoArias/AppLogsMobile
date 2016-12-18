@@ -7,12 +7,12 @@
   <Application.Resources>
     <ResourceDictionary>
       <!--Colores :Start-->
-      <Color x:Key="MainColor">#2D2D38</Color>
+      <Color x:Key="MainColor">#FF8C00</Color>
       <Color x:Key="FontColor">#2D2D38</Color>
-      <Color x:Key="MenuColor">#9CC9C9</Color>
-      <Color x:Key="MenuFontColor">#2D2D38</Color>
-      <Color x:Key="BackgroundColor">#FFFFE8</Color>
-      <Color x:Key="AccentColor">#E86E48</Color>
+      <Color x:Key="MenuColor">#F2FFE3</Color>
+      <Color x:Key="MenuFontColor">#1B4869</Color>
+      <Color x:Key="BackgroundColor">#F2FFE3</Color>
+      <Color x:Key="AccentColor">#1B4869</Color>
       <!--Colores :End-->
       
       <!--Crea la instancia del Menu : Start-->

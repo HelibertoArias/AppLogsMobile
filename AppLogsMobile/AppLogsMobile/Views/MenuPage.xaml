@@ -6,7 +6,25 @@
              BackgroundColor ="{StaticResource MenuColor}"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
 
-  <StackLayout Margin="0,0,0,0">
+  <StackLayout Padding="8">
+    <StackLayout Orientation="Horizontal">
+      <Label
+        Text="App Logs"
+        TextColor="{StaticResource AccentColor}"
+        FontSize="24"
+        HorizontalOptions="StartAndExpand"
+        VerticalOptions="Center"/>
+      <Image Source="ic_launcher.png"
+             HeightRequest="80"
+             WidthRequest="80"
+             HorizontalOptions="End"
+             VerticalOptions="Center"/>
+
+    </StackLayout>
+
+    <BoxView
+      HeightRequest="3"
+      Color="{StaticResource AccentColor}"></BoxView>
     <ListView
     ItemsSource="{Binding Menu}"
     HasUnevenRows="True">
